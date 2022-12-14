@@ -1,0 +1,231 @@
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#252932;
+	margin-bottom:20px;
+    
+}
+
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+.button-wrapper-cta {
+    display: left;
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  .cta-button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 3em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    font-family: 'Old Standard TT', serif;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 1em 2em;
+    width: auto;
+  }
+  
+  .button-cta {
+    background-color: #3882F6;
+    color: #fff !important;
+  }
+  
+  .button-cta:hover {
+    background-color: #6687BA;
+  }
+header .logo {
+    background-color: #1F2937;
+	font-size:50px;
+	line-height:200px;
+	float:left;
+}
+
+header nav {
+	float:right;
+	line-height:200px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+}
+
+aside {
+    width: ;
+    float: right;
+    background-color: #e0e0e0;
+    border-left: 1px solid white;
+}
+
+section {
+    width: 80%;
+    float: left;
+    background-color: #e0e0e0;
+}
+
+
+body {
+    background-color: #100e17;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+
+.container {
+    
+    height: 300px;
+    width: 600px;
+    top: 60px;
+    left: calc(50% - 300px);
+    display: flex;
+  }
+  
+  .card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  
+  .title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+  
+  
+  
+  
+  
+  blockquote{
+    display:block;
+    background-color: #E5E7EB;
+    text-decoration-color: #1F2937;
+    font-size: 36px;
+    font-style: light italic;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+    
+    /*Font*/
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+    
+    /*Borders - (Optional)*/
+    border-left: 15px solid #c76c0c;
+    border-right: 2px solid #c76c0c;
+    
+    /*Box Shadow - (Optional)*/
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+  }
+  
+  blockquote::before{
+    content: "\201C"; /*Unicode for Left Double Quote*/
+    
+    /*Font*/
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #999;
+    
+    /*Positioning*/
+    position: absolute;
+    left: 10px;
+    top:5px;
+  }
+  
+  blockquote::after{
+    /*Reset to make sure*/
+    content: "";
+  }
+  
+  blockquote a{
+    text-decoration: none;
+    background: #eee;
+    cursor: pointer;
+    padding: 0 3px;
+    color: #c76c0c;
+  }
+  
+  blockquote a:hover{
+   color: #666;
+  }
+  
+  blockquote em{
+    font-style: italic;
+  }
+
+  .container-name {
+    margin-left: 30px;
+    margin-top: 60px;
+  }
+  
+  .example_b {
+    font-family: 'Poppins';
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+  }
+  
+  .example_b:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+  }
+
+  .button-cta {
+    background-color: #3882F6;
+    color: #3882F6;
+  }
+  
+  .button-cta:hover {
+    background-color: #6687BA;
+  }
+    
+footer {
+    background-color: #1F2937;
+    color: #1F2937;
+    clear: both;
+    text-align: center;
+    
+}
